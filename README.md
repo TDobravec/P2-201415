@@ -1,1 +1,2 @@
-# P2-201415
+Celotno izvorno kodo prenesete na svoj računalnik z ukazom 
+
