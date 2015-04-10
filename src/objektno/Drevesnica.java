@@ -10,14 +10,13 @@ public class Drevesnica {
 		Drevo d1 = new Drevo();
 		d1.ime = "smreka";
 		d1.nastaviStarost(-30);
-		d1.visina = 52.5;
+		//d1.visina = 52.5;
 		
 		Drevo d2 = new Drevo("jablana");
 		//d2.izpis();
 		d2.ime = "jablana nova";
 		d2.nastaviStarost(0);
-		d2.visina = 1.6;
-		d2.izpis();
+		//d2.visina = 1.6;
 		double pr;
 		pr = d2.povprecnaRast();
 		System.out.printf("Povprecna rast je: %.2f, starost je %d\n", pr, d2.vrniStarost());
@@ -41,9 +40,6 @@ public class Drevesnica {
 		//d1.ID = 5;
 		System.out.println(d1.toString());
 		//d2.ID = 200;
-		d1.izpis();
-		d2.izpis();
-		d3.izpis();
 		System.out.println("ID je " + Drevo.ID);
 		d3.izpisiNavodilaZaObrezovanje();
 	}
