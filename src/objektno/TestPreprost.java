@@ -12,8 +12,7 @@ public class TestPreprost {
     Preprost p = new Preprost();
     
     System.out.println(p.toString());
-    
-    System.out.println(p);
+    System.out.println(p);  // klice se metoda toString()
     
   }
 

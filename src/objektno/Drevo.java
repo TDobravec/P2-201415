@@ -6,11 +6,11 @@ package objektno;
 public class Drevo extends Object {
 
   static int ID = 0;
-  
+
   String tip;
-  
+
   String ime = "";
-   
+
   private int starost = 0;
   private double visina = 0;
   int zapSt = 0;
@@ -18,7 +18,7 @@ public class Drevo extends Object {
   Drevo() {
     ID++;
     zapSt = ID;
-    
+
     tip = "Drevo";
   }
 
@@ -36,10 +36,10 @@ public class Drevo extends Object {
   public int getStarost() {
     return starost;
   }
-  
+
   public void setStarost(int starost) {
     this.starost = starost;
-    
+
     //visina = starost / ....;
   }
 
@@ -50,13 +50,10 @@ public class Drevo extends Object {
   public void setVisina(double visina) {
     this.visina = visina;
   }
-  
-  
-  
+
   public String toString() {
     return String.format("%s %s, staro %d let je veliko %.1f m, zap. stevilka: %d", tip, this.ime, starost, visina, zapSt);
   }
-
 
   void pomlad() {
     starost = starost + 1;
