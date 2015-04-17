@@ -1,4 +1,4 @@
-package objektno;
+package funkcije;
 
 /**
  *
@@ -13,7 +13,7 @@ public class TestFunkcija {
   
   public static void main(String[] args) {
     Funkcija f1 = new MojSinus();
-    Funkcija f2 = new MojCos();
+    Funkcija f2 = new MojCosinus();
     
     vsota(f1, f2, Math.PI);
     

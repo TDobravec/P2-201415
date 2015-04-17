@@ -1,4 +1,4 @@
-package objektno;
+package funkcije;
 
 /**
  *
@@ -6,4 +6,5 @@ package objektno;
  */
 abstract public class Funkcija {
   abstract double vrednost(double x);
+  abstract double odvod(double x);
 }
