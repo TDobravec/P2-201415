@@ -38,5 +38,5 @@ public class Bonsai extends Drevo {
       sirina = sirina - 5;
     }
   }
-
+  
 }
