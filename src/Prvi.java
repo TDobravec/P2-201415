@@ -6,6 +6,7 @@ public class Prvi {
     System.out.println("Programiranje je super!");
     
     a = a+1;
+    
   }
   
 

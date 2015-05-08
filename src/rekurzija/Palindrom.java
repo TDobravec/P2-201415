@@ -20,10 +20,13 @@ public class Palindrom {
     String niz = "pericarezeracirep";
     
     
-    if (jePalindrom(niz))
-      System.out.printf("Niz %s JE palindrom.\n", niz);
-    else
-      System.out.printf("Niz %s NI palindrom.\n", niz);
+//    if (jePalindrom(niz))
+//      System.out.printf("Niz %s JE palindrom.\n", niz);
+//    else
+//      System.out.printf("Niz %s NI palindrom.\n", niz);
+    
+    System.out.printf("Niz %s %s palindrom.\n", niz, jePalindrom(niz) ? "JE" : "NI");
+    
   }
   
 }

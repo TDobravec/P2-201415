@@ -11,10 +11,14 @@ public class Dvojisko {
     
     String rezultat = "";
     while (x > 0) {
-      if ((x & 1) == 1)
-        rezultat = "1" + rezultat;
-      else
-        rezultat = "0" + rezultat;
+
+//      if ((x & 1) == 1)
+//        rezultat = "1" + rezultat;
+//      else
+//        rezultat = "0" + rezultat;
+      
+      rezultat = (((x & 1) == 1) ? "1" : "0") + rezultat;
+      
       x = x >> 1;
     }
     return rezultat;
