@@ -1,0 +1,11 @@
+ 1  T. MAZE            SLO 
+ 2  T. POUTIAINEN      FIN
+ 3  M. PIETILZ-HOLMNER SVE
+ 4  M. RIESCH          NEM
+ 5  M. SCHIELD         AVT
+ 6  S. AUBERT          FRA
+ 7  S. ZAHROBSKA       CZE
+ 8  N. HOSP            AVT
+ 9  K. DUERR           NEM
+10  N. NOENS           FRA
+11  K. ZETTEL          AVT 
